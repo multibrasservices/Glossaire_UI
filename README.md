@@ -2,7 +2,7 @@
 
 > **Maîtrisez le vocabulaire technique des interfaces utilisateur pour optimiser vos prompts IA**
 
-[![Live Demo](https://img.shields.io/badge/🚀_Demo-Live-success?style=for-the-badge)](VOTRE_URL_DE_DEPLOIEMENT_ICI)
+[![Live Demo](https://img.shields.io/badge/🚀_Demo-Live-success?style=for-the-badge)](https://multibrasservices.github.io/Glossaire_UI/)
 [![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
@@ -53,7 +53,7 @@ Des suggestions de prompts pour chaque composant, optimisées pour le développe
 
 ### 📍 URL de Déploiement
 
-**Application en ligne :** [VOTRE_URL_DE_DEPLOIEMENT_ICI](VOTRE_URL_DE_DEPLOIEMENT_ICI)
+**Application en ligne :** [https://multibrasservices.github.io/Glossaire_UI/](https://multibrasservices.github.io/Glossaire_UI/)
 
 ### 🛠️ Déploiement Local
 
