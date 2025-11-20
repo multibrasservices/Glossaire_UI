@@ -118,13 +118,24 @@ REM Pull avec rebase pour garder un historique propre
 git pull origin %current_branch% --rebase >nul 2>&1
 
 if %errorlevel% neq 0 (
-    echo [ATTENTION] Conflit detecte lors du pull.
     echo.
-    echo Options:
-    echo   1. Annuler le rebase et forcer le push (ecrase le distant)
-    echo   2. Annuler et resoudre manuellement
+    echo ============================================================================
+    echo [CONFLIT DETECTE]
+    echo ============================================================================
     echo.
-    set /p CONFLICT_CHOICE="Votre choix (1/2) : "
+    echo Le depot distant a des changements differents de votre travail local.
+    echo.
+    echo OPTION 1 : Forcer le push (RECOMMANDE si vous etes sur de votre travail)
+    echo   - Votre travail local remplace completement le distant
+    echo   - Les changements sur GitHub seront ecrases
+    echo   - Rapide et simple
+    echo.
+    echo OPTION 2 : Resolution manuelle (pour experts Git)
+    echo   - Le script s'arrete
+    echo   - Vous devrez resoudre les conflits vous-meme
+    echo   - Plus de controle mais plus complexe
+    echo.
+    set /p CONFLICT_CHOICE="Tapez 1 ou 2 puis Entree : "
     
     if "!CONFLICT_CHOICE!"=="1" (
         git rebase --abort >nul 2>&1
